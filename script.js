@@ -26,8 +26,8 @@ const getBook = () => {
             <div class="card-body">
             <h5 class="card-title">${data[i].title}</h5>
             <p class="card-text">Prezzo: ${data[i].price}$</p>
-            <a onclick="eliminaLibro(event)" href="#"  class="btn btn-primary w-100 mb-3 elimina">Scarta</a>
-            <a onclick="aggiungiCarrello(event)" href="#"  class="btn btn-primary w-100 acquista">Acquista</a>
+            <button onclick="eliminaLibro(event)"  class="btn btn-primary w-100 mb-3 elimina">Scarta</button>
+            <button onclick="aggiungiCarrello(event)"  class="btn btn-primary w-100 acquista">Acquista</button>
         </div>
         `
       }
